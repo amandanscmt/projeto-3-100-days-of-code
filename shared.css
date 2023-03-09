@@ -1,0 +1,53 @@
+body { 
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+}
+
+ul { 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#page-logo a { 
+    font-family: 'Caveat', cursive;
+    padding: 10px;
+    color: rgb(56, 30, 0);
+    text-decoration: none;
+    font-size: 45px;
+    text-shadow: 1px 1px 1px rgb(136, 136, 136);
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header li {
+    margin-left: 20px; 
+}
+
+ ul a {
+    text-decoration: none;
+    color: rgb(196, 149, 91);
+    font-size: 18px;
+    padding: 12px;
+ }
+
+ ul a:hover {
+    color: rgb(56, 30, 0);
+    transition: 400ms;
+    background-color: bisque;
+    border-radius: 5px;
+ }
