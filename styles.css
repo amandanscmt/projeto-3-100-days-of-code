@@ -6,7 +6,7 @@
 }
 
 #hero-content {
-    width: 900px;
+    width: 70%;
     background-color: rgb(51, 47, 47, 0.5);
     box-shadow: 2px 2px 10px rgb(48, 48, 48);
     border-radius: 10px;
@@ -61,7 +61,7 @@
 #destinations {
     display: flex;
     width: 90%;
-    margin:auto;
+    margin: auto;
     margin-bottom: 40px;
     justify-content: center;
 }
@@ -72,7 +72,7 @@
 }
 
 .destination img {
-    height: 200px;
+    height: 80%;
     width: 100%;
     border-radius: 10px;
     object-fit: cover;
