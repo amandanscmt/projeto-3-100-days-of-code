@@ -49,3 +49,41 @@
     background-color: rgb(214, 175, 127);
     transition: 400ms;
 }
+
+#highlights h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(56, 30, 0);
+    font-weight: light;
+    letter-spacing: 3px;
+}
+
+#destinations {
+    display: flex;
+    width: 90%;
+    margin:auto;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.destination {
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+
+.destination img {
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.destination p {
+    text-align: center;
+    font-size: large;
+    margin: 0 20px;
+}
+
+.destination strong {
+    color: rgb(196, 149, 91);
+}
