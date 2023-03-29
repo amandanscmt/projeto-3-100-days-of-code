@@ -50,6 +50,11 @@
     transition: 400ms;
 }
 
+#highlights {
+    padding: 24px;
+    background: linear-gradient(90deg, rgb(212, 200, 185), rgb(231, 225, 216));
+}
+
 #highlights h2 {
     text-transform: uppercase;
     text-align: center;
